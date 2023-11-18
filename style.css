@@ -109,3 +109,16 @@ p {
   margin: 10px;
   background: #fff;
 }
+
+@media (max-width: 800px) {
+  .home-img {
+    display: none;
+  }
+  h1 {
+    font-size: 55px;
+  }
+  .app-link {
+    display: flex;
+    justify-content: center;
+  }
+}
